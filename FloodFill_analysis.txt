@@ -1,0 +1,37 @@
+Data Structure : Queue
+
+Three 2D arrays :
+    1. Horizontal walls
+    2. Vertical walls
+    3. Manhattan Distances
+
+- Making an initial maze
+
+
+Location
+
+you guys are using chessi model.
+reference to choice motor, sensor in UCLA
+
+<noun>
+- wall
+- empty ==> is_valid
+- current location : class location
+
+
+<verb>
+- create_empty_maze
+
+[#Calculate distance]
+- Update distance
+- isConsistent ( does it have to change direction or not ? )
+
+[#Make a move]
+- Make a move
+ => (directions mean) right, left, straight (fields)
+- Take a new route ( it just stuck ; does it have to turn around? )
+
+[#Check walls]
+- CheckWall (Boolean ; Is there wall or not in our current moving direction?)
+- Update wall information (Void)
+
